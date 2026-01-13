@@ -1,0 +1,5 @@
+pyTelegramBotAPI==4.15.0
+SQLAlchemy==2.0.25
+python-dotenv==1.0.0
+schedule==1.2.0
+pytz==2023.3 
