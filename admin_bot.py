@@ -892,8 +892,12 @@ def back_to_dashboard(call):
 # -------------------- MAIN --------------------
 
 
-def startadmin():
+def main():
     """Main function to start the bot"""
     print("👨‍💼 Admin bot is starting...")
     print("✅ Admin bot is running. Press Ctrl+C to stop.")
     bot.infinity_polling()
+
+
+if __name__ == '__main__':
+    main()

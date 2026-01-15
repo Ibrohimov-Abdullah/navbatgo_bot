@@ -1675,7 +1675,7 @@ def handle_refresh_bookings(call):
 # -------------------- MAIN --------------------
 
 
-def startuser():
+def main():
     """Main function to start the bot"""
     print("🤖 User bot is starting...")
 
@@ -1686,3 +1686,7 @@ def startuser():
     # Start bot
     print("✅ User bot is running. Press Ctrl+C to stop.")
     bot.infinity_polling()
+
+
+if __name__ == '__main__':
+    main()
