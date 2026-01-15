@@ -1852,7 +1852,7 @@ def go_to_panel(call):
 # -------------------- MAIN --------------------
 
 
-def main():
+def startbarber():
     """Main function to start the bot"""
     print("💈 Barber bot is starting...")
     print("✅ Barber bot is running. Press Ctrl+C to stop.")
@@ -1860,4 +1860,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    startbarber()

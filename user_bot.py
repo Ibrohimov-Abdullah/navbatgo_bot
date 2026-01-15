@@ -1675,7 +1675,7 @@ def handle_refresh_bookings(call):
 # -------------------- MAIN --------------------
 
 
-def main():
+def startuser():
     """Main function to start the bot"""
     print("🤖 User bot is starting...")
 
@@ -1689,4 +1689,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    startuser()
